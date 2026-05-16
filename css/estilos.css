@@ -1,0 +1,95 @@
+/*GENERALES*/
+#contenedor{
+	width: 100%;
+	max-width: 1200px;
+}
+
+*{box-sizing: border-box;}
+
+header{
+	background-color: #5292FF;
+	border: 0.3rem solid #0012FF;
+}
+
+/*menu navegacion*/
+nav ul{
+	background-color: #5292FF;
+	list-style: none;
+	padding: 0;
+	margin: 0.2rem;
+	text-align: center;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0;
+}
+
+/* links */
+nav a{
+	display: inline-block;
+	padding: 0.2rem 1.2rem;
+	text-decoration: none;
+	border: 0.4rem solid #77EDFF;
+}
+
+/* normal */
+nav a:link{
+	background-color: #6CFF4F;
+	color: #0012FF;
+}
+
+/* visitado */
+nav a:visited {
+	background-color: #0012FF;
+	color: #6CFF4F;
+}
+
+/* mouse encima */
+nav a:hover{
+	background-color: #5EFFAC;
+	color: #0012FF;
+}
+
+/* click */
+nav a:active{
+	background-color: #0012FF;
+	color: #0012FF;
+}
+/*fin menu navegacion*/
+
+
+header h1,header h2{ /*descendiente para centrar titulo principal*/
+	text-align: center;
+}
+
+body {
+	background-image: url(../img/fondo.png);
+	background-repeat: repeat;
+	font-family:  "Cormorant Garamond", serif;
+	font-size: x-large;
+	margin: 0 auto; /*centra el cuerpo*/
+	padding: 2rem;
+}
+
+section{
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+hr {
+	border: none;
+	height: 0.3rem;
+	background-color: #6CFF4F;
+	margin: 2rem 0;
+}
+
+footer{
+	background-color: rgba(255, 255, 255, 0.9);
+	text-align: right;
+	padding: 1rem 3rem;
+}
+#mail{
+	color:  #6CFF4F;
+	background-color: rgba(80, 80, 255, 0.9);
+}
