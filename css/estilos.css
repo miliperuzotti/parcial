@@ -14,9 +14,10 @@ header{
 /*menu navegacion*/
 nav ul{
 	background-color: #5292FF;
+	border: 0.3rem solid #0012FF;
 	list-style: none;
-	padding: 0;
-	margin: 0.2rem;
+	padding: 0.8rem;
+	margin: 0rem;
 	text-align: center;
 }
 
@@ -76,11 +77,22 @@ section{
 	background-color: rgba(255, 255, 255, 0.9);
 }
 
+h2,p{
+	padding: 1.5rem;
+}
+p{
+	padding-top: 0rem;
+}
+h2{
+	padding-bottom: 0.5rem;
+}
+
+img{display: block;}
 
 hr {
 	border: none;
 	height: 0.3rem;
-	background-color: #6CFF4F;
+	background-color: #5292FF;
 	margin: 2rem 0;
 }
 
@@ -92,4 +104,52 @@ footer{
 #mail{
 	color:  #6CFF4F;
 	background-color: rgba(80, 80, 255, 0.9);
+}
+
+
+
+
+/*INDEX*/
+.tituloprincipal{
+	color: white;
+	text-shadow: 2px 2px 5px #0012FF;
+	margin-bottom: 0rem;
+}
+
+.subtitulo{
+	color: #0012FF;
+	margin-top: 0rem;
+	margin-bottom: 2rem;
+}
+
+
+.imagen1{
+	padding: none;
+	margin-left: 21rem;
+	margin-right: 21.1rem;
+	border: 0.4rem solid #0012FF;
+	display: block;
+}
+
+article{
+	margin: 2rem ;
+	margin-bottom: 0rem;
+	padding: 2rem;
+	text-align: center;
+	border: 0.2rem solid #6CFF4F;
+
+}
+article h2{
+	text-decoration: underline;
+	 text-decoration-thickness: 5%
+}
+
+.pderecha{
+text-align: right;
+padding-left:20rem ;
+}
+
+.pizq{
+text-align: left;
+padding-right: 20rem;
 }
